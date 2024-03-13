@@ -1,0 +1,67 @@
+*{
+    box-sizing: border-box;
+}
+body{font-family: rubik, helvetica, arial, sans-serif; 
+    font-size: 14px;
+}
+a{color: rgb(0, 84, 168);
+text-decoration: none;}
+/* Стилі для таблиці */
+.table1{border-collapse: collapse;
+width: 75%;}
+.table1 th,
+.table1  td{
+    border: 1px solid gray;
+    padding: 6px;
+}
+.table1  th{
+    color: rgb(0, 84, 168); 
+    background-color: rgb(234, 236, 240);
+}
+.main-article{
+    min-width: 720px;
+    max-width: 1920px;
+    width: 50%;
+    background-color: rgba(203, 217, 211, 0.15);
+    margin: auto;
+    padding: 30px;
+}
+
+.nav-menu{
+    width: 120px;
+    border: 1px solid rgb(187, 194, 198);
+    background-color: white;
+}
+.title-menu{
+    margin: 0;
+    padding: 8px 15px;
+    background-color: rgb(234, 236, 240);
+    border-bottom: 1px solid rgb(187, 194, 198);
+    font-size: 1em;
+}
+
+.nav-list{
+    padding-left: 29px;
+}
+.nav-list li{
+padding-bottom: 8px;
+}
+
+.fig{
+    float: right;
+}
+.w20{width: 25%;}
+.w40{width: 40%;}
+
+.info{
+    width: 90%;
+    margin: auto;
+    padding: 15px;
+    padding-left: 65px;
+    background-color: rgb(188, 212, 245);
+    border: 2px;
+    border-left-width: 4px ;
+    border-style: solid;
+    border-color: gray;
+    display: flex;
+}
